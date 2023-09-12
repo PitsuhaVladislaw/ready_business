@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-image: url(../../assets/img/vinyl-fence-house\ 1.png);
+    background-size: cover;
+
+    .mainText {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 307px 293px 263px 237px;
+    }
+
+    %headerText {
+        width: auto;
+        height: auto;
+        margin: 0;
+        color: #FFF;
+        text-align: right;
+        font-family: PT Sans Caption;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -1.5px;
+    }
+
+    .landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 21.56px;
+        width: auto;
+        height: auto;
+
+        h4 {
+            @extend %headerText;
+        }
+    
+        h3 {
+            width: 652.959px;
+            height: 112.107px;
+            flex-shrink: 0;
+            @extend %headerText;
+            font-size: 115px;
+            font-weight: 700;
+            line-height: 93.687%;
+            letter-spacing: -4.025px;
+            text-align: justify;
+        }
+    }
+
+    p {
+        @extend %headerText;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: -0.15px;
+    }
+}
+
