@@ -1,0 +1,91 @@
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @extend %setBlock;
+    margin: 74px auto 69px;
+
+    %setBlock {
+        width: auto;
+        height: auto;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 57px;
+        @extend %setBlock;
+
+        h1 {
+            @extend %setBlock;
+            color: #008AC6;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: -0.75px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        
+        p {
+            color: #000;
+            font-family: PT Sans Caption;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+            width: 1113px;
+            height: auto;
+        }
+    }
+
+    %setHText {
+        color: #000;
+        font-family: PT Sans Caption;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    h3 {
+        margin-top: 27px;
+        @extend %setHText;
+        
+        span {
+            @extend %setHText;
+            color: #FF5E14;
+            font-weight: 700;
+        }
+    }
+
+    .button {
+        margin: 69px 0 0;
+        cursor: pointer;
+        @extend %setBlock;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 659px;
+        height: 81px;
+        background: #FF5E14;
+        border: none;
+        box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+        
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: PT Sans Caption;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

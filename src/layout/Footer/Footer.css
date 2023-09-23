@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background: #001659;
+}
+footer h1 {
+  width: auto;
+  height: auto;
+  color: #FFF;
+  font-family: PT Sans Caption;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+}
+footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}/*# sourceMappingURL=Footer.css.map */
