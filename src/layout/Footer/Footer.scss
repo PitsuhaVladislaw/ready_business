@@ -1,37 +1,52 @@
-footer {
+%setBlock {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
     height: auto;
+}
+
+%setText {
+    color: #FFF;
+    font-family: PT Sans Caption;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+footer {
+    @extend %setBlock;
+    flex-direction: column;
     background: #001659;
+    padding: 30px 50px;
 
     h1 {
-        width: auto;
-        height: auto;
-        color: #FFF;
-        font-family: PT Sans Caption;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        @extend %setText;
+        height: 48px;
         letter-spacing: 0.65px;
         text-transform: uppercase;
     }
 
     section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %setBlock;
         gap: 23px;
+        align-items: flex-start;
+        margin: 22px auto 38px;
 
         .form-reg {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @extend %setBlock;
             gap: 25px;
         }
+    }
+    .copyright {
+        @extend %setText;
+        font-size: 10px;
+        color: #008AC6;
+        text-align: center;
+        font-weight: 400;
     }
 }

@@ -1,0 +1,105 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #000;
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.answear {
+    @extend %setBlock;
+    flex-direction: column;
+    gap: 50px;
+    margin: 75px auto;
+
+    h1 {
+        @extend %setText;
+        color: #008AC6;
+        font-size: 50px;
+        line-height: 94.4%;
+        width: 881px;
+
+        span {
+            color: #FF5E14;
+        }
+    }
+
+    article {
+        @extend %setBlock;
+        flex-direction: row;
+        align-items: flex-start;
+        float: 1 0 0;
+        gap: 22px;
+
+        div {
+            @extend %setBlock;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-shrink: 2;
+            width: 206px;
+            gap: 17px;
+
+            h6 {
+                @extend %setText;
+                color: #008AC6;
+                font-size: 70px;
+                line-height: normal;
+            }
+
+            p {
+                @extend %setText;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: none;
+                text-align: left;
+
+                span {
+                    text-transform: uppercase;
+                    color: #FF5E14;
+                }
+            }
+        }
+    }
+
+    h3 {
+        @extend %setText;
+        width: 831px;
+
+        span {
+            color: #FF5E14;
+        }
+    }
+
+    button {
+        @extend %setBlock;
+        background: #FF5E14;
+        box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+        border: none;
+
+        p {
+            @extend %setText;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: none;
+            margin: 28px;
+        }
+    }
+}

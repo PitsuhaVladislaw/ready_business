@@ -1,27 +1,44 @@
-footer {
+footer section .form-reg, footer section, footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: auto;
   height: auto;
-  background: #001659;
 }
-footer h1 {
-  width: auto;
-  height: auto;
+
+footer .copyright, footer h1 {
   color: #FFF;
   font-family: PT Sans Caption;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+footer {
+  flex-direction: column;
+  background: #001659;
+  padding: 30px 50px;
+}
+footer h1 {
+  height: 48px;
   letter-spacing: 0.65px;
   text-transform: uppercase;
 }
 footer section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 23px;
+  align-items: flex-start;
+  margin: 22px auto 38px;
+}
+footer section .form-reg {
+  gap: 25px;
+}
+footer .copyright {
+  font-size: 10px;
+  color: #008AC6;
+  text-align: center;
+  font-weight: 400;
 }/*# sourceMappingURL=Footer.css.map */

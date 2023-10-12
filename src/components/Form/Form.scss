@@ -1,0 +1,67 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+%setText {
+    color: #FFF;
+    font-family: PT Sans Caption;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+article {
+    @extend %setBlock;
+    flex-direction: column;
+    gap: 17px;
+
+    .infaForm {
+        @extend %setBlock;
+        flex-direction: column;
+        gap: 23px;
+
+        div {
+            @extend %setBlock;
+            justify-content: space-between;
+            gap: 20px;
+
+            input {
+                width: 320px;
+            }
+        }
+
+        input {
+            @extend %setText;
+            padding: 24px;
+            width: 660px;
+            height: 60px;
+            border: 2px solid #FFF;
+            background: #ffffff00;
+        }
+    }
+
+    .submitBl {
+        @extend %setBlock;
+        gap: 113px;
+        flex-direction: column;
+
+        button {
+            @extend %setBlock;
+            @extend %setText;
+            padding: 12px 68px;
+            text-align: center;
+            font-size: 20px;
+            background: #FF5E14;
+            border: none;
+            filter: drop-shadow(0px 10px 13px rgba(255, 94, 20, 0.50));
+        }
+    }
+}

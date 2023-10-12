@@ -1,0 +1,86 @@
+article .after_infa, article .text_infa, article .cont_infa .cont_block div, article .cont_infa .cont_block, article .cont_infa, article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+article .after_infa p, article .text_infa p, article .text_infa h2, article .text_infa h1, article .cont_infa .cont_block a p {
+  color: #FFF;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+article {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+}
+article .cont_infa {
+  gap: 24px;
+}
+article .cont_infa .cont_block {
+  gap: 5px;
+}
+article .cont_infa .cont_block div {
+  padding: 8px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background: #FFF;
+}
+article .cont_infa .cont_block div img {
+  height: auto;
+  width: auto;
+}
+article .cont_infa .cont_block a {
+  text-decoration: none;
+}
+article .text_infa {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+article .text_infa h1 {
+  color: #008AC6;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+article .text_infa h2 {
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-align: justify;
+}
+article .text_infa p {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  text-align: justify;
+}
+article .after_infa {
+  padding-bottom: 25px;
+  align-items: flex-start;
+  gap: 35px;
+}
+article .after_infa p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: normal;
+}
+article .after_infa a {
+  text-decoration: none;
+}
+article .after_infa a img {
+  width: 45px;
+  height: 61px;
+}/*# sourceMappingURL=FotInfa.css.map */

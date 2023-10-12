@@ -1,0 +1,101 @@
+.price .back-picture article button, .price .back-picture article h4, .price .back-picture article .group-adva .card-adva p, .price .back-picture article .group-adva .card-adva h2, .price h1 {
+  color: #FFF;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.price .back-picture article button, .price .back-picture article .group-adva .card-adva, .price .back-picture article .group-adva div, .price .back-picture article .group-adva, .price .back-picture article, .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.price {
+  flex-direction: column;
+  gap: 53px;
+}
+.price h1 {
+  color: #008AC6;
+  text-align: center;
+  font-size: 50px;
+  line-height: 110%;
+  letter-spacing: -1.25px;
+}
+.price h1 span {
+  color: #FF5E14;
+}
+.price .back-picture {
+  height: auto;
+  width: auto;
+  background-image: url("../../../assets/img/background.png");
+  background-size: cover;
+}
+.price .back-picture article {
+  position: relative;
+  flex-direction: column;
+  height: 1132px;
+  background-color: rgba(0, 22, 89, 0.8);
+  gap: 49px;
+}
+.price .back-picture article img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 50px;
+  top: 10px;
+}
+.price .back-picture article .group-adva {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 48px;
+}
+.price .back-picture article .group-adva div {
+  align-items: flex-start;
+  gap: 70px;
+}
+.price .back-picture article .group-adva .card-adva {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 274px;
+}
+.price .back-picture article .group-adva .card-adva .icon-card {
+  width: 97px;
+  height: 97px;
+  color: #FF5E14;
+}
+.price .back-picture article .group-adva .card-adva h2 span {
+  color: #FF5E14;
+  text-decoration-line: underline;
+}
+.price .back-picture article .group-adva .card-adva p {
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+}
+.price .back-picture article .group-adva .card-adva img {
+  position: none;
+  width: auto;
+  height: auto;
+  color: #FF5E14;
+}
+.price .back-picture article h4 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 105.4%;
+}
+.price .back-picture article button {
+  border: none;
+  padding: 22px 29px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  background: #FF5E14;
+  box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.5);
+}/*# sourceMappingURL=Price.css.map */

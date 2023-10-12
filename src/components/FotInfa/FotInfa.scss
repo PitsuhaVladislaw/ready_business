@@ -1,0 +1,113 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+article {
+    @extend %setBlock;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+
+    .cont_infa {
+        @extend %setBlock;
+        gap: 24px;
+
+        .cont_block {
+            @extend %setBlock;
+            gap: 5px;
+
+            div {
+                @extend %setBlock;
+                padding: 8px;
+                height: 30px;
+                width: 30px;
+                border-radius: 30px;
+                background: #FFF;
+
+                img {
+                    height: auto;
+                    width: auto;
+                }
+            }
+        
+            a {
+                text-decoration: none;
+        
+                p {
+                    @extend %setText;
+                }
+            }
+        }
+    }
+
+    .text_infa {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+
+        h1 {
+            @extend %setText;
+            color: #008AC6;
+            text-transform: uppercase;
+            letter-spacing: normal;
+        }
+
+        h2 {
+            @extend %setText;
+            font-weight: 700;
+            letter-spacing: 1.1px;
+            text-align: justify;
+        }
+
+        p {
+            @extend %setText;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.72px;
+            text-align: justify;
+        }
+    }
+
+    .after_infa {
+        @extend %setBlock;
+        padding-bottom: 25px;
+        align-items: flex-start;
+        gap: 35px;
+
+        p {
+            @extend %setText;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: justify;
+            letter-spacing: normal;
+        }
+
+        a {
+            text-decoration: none;
+
+            img {
+                width: 45px;
+                height: 61px;
+            }
+        }
+    }
+}

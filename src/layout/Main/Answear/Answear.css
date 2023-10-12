@@ -1,0 +1,85 @@
+.answear button, .answear article div, .answear article, .answear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.answear button p, .answear h3, .answear article div p, .answear article div h6, .answear h1 {
+  color: #000;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.answear {
+  flex-direction: column;
+  gap: 50px;
+  margin: 75px auto;
+}
+.answear h1 {
+  color: #008AC6;
+  font-size: 50px;
+  line-height: 94.4%;
+  width: 881px;
+}
+.answear h1 span {
+  color: #FF5E14;
+}
+.answear article {
+  flex-direction: row;
+  align-items: flex-start;
+  float: 1 0 0;
+  gap: 22px;
+}
+.answear article div {
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 2;
+  width: 206px;
+  gap: 17px;
+}
+.answear article div h6 {
+  color: #008AC6;
+  font-size: 70px;
+  line-height: normal;
+}
+.answear article div p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  text-align: left;
+}
+.answear article div p span {
+  text-transform: uppercase;
+  color: #FF5E14;
+}
+.answear h3 {
+  width: 831px;
+}
+.answear h3 span {
+  color: #FF5E14;
+}
+.answear button {
+  background: #FF5E14;
+  box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.5);
+  border: none;
+}
+.answear button p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: none;
+  margin: 28px;
+}/*# sourceMappingURL=Answear.css.map */

@@ -1,13 +1,16 @@
+import Answear from './Answear/Answear';
 import './Main.css'
+import Price from './Price/Price';
 
-import Questions from './Questions/Questions';
+
 import Time from './Time/Time';
 
 function Main() {
     return(
         <main>
-            <Questions />
             <Time />
+            <Answear />
+            <Price />
         </main>
     )
 }
