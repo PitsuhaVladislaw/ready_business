@@ -1,0 +1,89 @@
+.stock .img-back-stock article form button, .stock .img-back-stock article form, .stock .img-back-stock article, .stock .img-back-stock, .stock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.stock .img-back-stock article form input::-moz-placeholder {
+  color: #FFF;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.stock .img-back-stock article form button, .stock .img-back-stock article form input::placeholder, .stock .img-back-stock article form input, .stock .img-back-stock h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.stock {
+  background-image: url(../../../assets//img/back-stock.png);
+  background-size: cover;
+}
+.stock .img-back-stock {
+  flex-direction: column;
+  gap: 39px;
+  background-color: rgba(0, 22, 89, 0.8);
+  padding-top: 51px;
+  padding-bottom: 83px;
+}
+.stock .img-back-stock h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  line-height: 110%;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+}
+.stock .img-back-stock article {
+  flex-direction: column;
+  gap: 28px;
+}
+.stock .img-back-stock article form {
+  gap: 20px;
+}
+.stock .img-back-stock article form input {
+  color: #000;
+  font-size: 16px;
+  background: #FFF;
+  text-align: left;
+  width: 547px;
+  height: 67px;
+}
+.stock .img-back-stock article form input::-moz-placeholder {
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+}
+.stock .img-back-stock article form input::placeholder {
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+}
+.stock .img-back-stock article form button {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #FF5E14;
+  width: 547px;
+  height: 67px;
+  border: none;
+}/*# sourceMappingURL=Stock.css.map */

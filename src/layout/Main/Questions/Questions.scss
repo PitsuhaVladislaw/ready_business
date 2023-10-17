@@ -1,0 +1,58 @@
+%setBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #001659;
+    font-family: PT Sans Caption;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.questions {
+    @extend %setBlock;
+    flex-direction: column;
+
+    h1 {
+        @extend %setText;
+        color: #008AC6;
+        text-align: center;
+        font-size: 50px;
+        line-height: 110%;
+        text-transform: uppercase;
+
+        span {
+            color: #FF5E14;
+        }
+    }
+
+    article {
+        margin: 52px auto 88px;
+
+        .accordion-header {
+            @extend %setBlock;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 1161px;
+
+            h4 {
+                @extend %setText;
+            }
+        }
+
+        p {
+            @extend %setText;
+            font-size: 20px;
+        }
+    }
+}

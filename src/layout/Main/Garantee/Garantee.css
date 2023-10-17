@@ -1,0 +1,97 @@
+.garantee .line-gara main .list-gar div, .garantee .line-gara main .list-gar, .garantee .line-gara main .ipod, .garantee .line-gara main, .garantee header, .garantee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.garantee .line-gara main .list-gar div ul li h6, .garantee .line-gara main .list-gar div ul li h5, .garantee header p, .garantee header h1 {
+  color: #FFF;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.3px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.garantee {
+  flex-direction: column;
+  gap: 43px;
+}
+.garantee header {
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  margin-top: 25px;
+}
+.garantee header h1 {
+  color: #008AC6;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 110%;
+}
+.garantee header p {
+  color: #001659;
+  text-align: center;
+}
+.garantee .line-gara {
+  align-self: stretch;
+  height: 238px;
+  width: auto;
+  background: #001659;
+  margin: 141px auto;
+}
+.garantee .line-gara main {
+  height: 510px;
+  flex-direction: row;
+  padding: 0 72px;
+  gap: 55px;
+}
+.garantee .line-gara main .ipod {
+  flex-direction: row;
+  gap: 69px;
+}
+.garantee .line-gara main .ipod div {
+  width: auto;
+  height: auto;
+}
+.garantee .line-gara main .ipod img {
+  width: auto;
+  height: auto;
+}
+.garantee .line-gara main .list-gar {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0px;
+}
+.garantee .line-gara main .list-gar img {
+  width: auto;
+  height: auto;
+}
+.garantee .line-gara main .list-gar div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.garantee .line-gara main .list-gar div ul li {
+  width: 450px;
+  color: #FF5E14;
+}
+.garantee .line-gara main .list-gar div ul li h5 {
+  color: #FFF;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.garantee .line-gara main .list-gar div ul li {
+  width: 450px;
+  color: #FF5E14;
+}
+.garantee .line-gara main .list-gar div ul li h6 {
+  color: #000;
+  text-align: justify;
+}/*# sourceMappingURL=Garantee.css.map */

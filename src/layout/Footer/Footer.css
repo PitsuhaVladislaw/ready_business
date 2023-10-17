@@ -1,4 +1,4 @@
-footer section .form-reg, footer section, footer {
+footer article section .form-reg, footer article section, footer article, footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@ footer section .form-reg, footer section, footer {
   height: auto;
 }
 
-footer .copyright, footer h1 {
+footer article .copyright, footer article h2, footer h1 {
   color: #FFF;
   font-family: PT Sans Caption;
   font-size: 26px;
@@ -20,23 +20,36 @@ footer .copyright, footer h1 {
 
 footer {
   flex-direction: column;
+}
+footer h1 {
+  color: #008AC6;
+  text-align: center;
+  font-size: 40px;
+  line-height: 104.4%;
+  margin: 45px auto;
+}
+footer h1 span {
+  color: #FF5E14;
+}
+footer article {
+  flex-direction: column;
   background: #001659;
   padding: 30px 50px;
 }
-footer h1 {
+footer article h2 {
   height: 48px;
   letter-spacing: 0.65px;
   text-transform: uppercase;
 }
-footer section {
+footer article section {
+  flex-direction: row;
   gap: 23px;
   align-items: flex-start;
-  margin: 22px auto 38px;
 }
-footer section .form-reg {
+footer article section .form-reg {
   gap: 25px;
 }
-footer .copyright {
+footer article .copyright {
   font-size: 10px;
   color: #008AC6;
   text-align: center;
