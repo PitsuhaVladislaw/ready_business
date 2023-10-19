@@ -1,0 +1,96 @@
+%setBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #000;
+    font-family: PT Sans Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.ownBusiness {
+    @extend %setBlock;
+    flex-direction: column;
+    padding: 74px 140px 69px;
+    gap: 55px;
+
+    h1 {
+        @extend %setText;
+        color: #008AC6;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: -0.75px;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        @extend %setText;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    article {
+        @extend %setBlock;
+        flex-direction: column;
+        gap: 27px;
+
+        div {
+            @extend %setBlock;
+            flex-direction: row;
+            gap: 20px;
+
+            div {
+                @extend %setBlock;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 31px;
+                border-bottom: 2px solid#FF6F53;
+                height: 331px;
+                width: 206px;
+        
+                img {
+                    width: auto;
+                    height: auto;
+                }
+        
+                p {
+                    @extend %setText;
+                    font-size: 18px;
+                    letter-spacing: -0.99px;
+                    margin-bottom: 28px;
+                }
+            }
+        }
+
+        h3 {
+            @extend %setText;
+            font-size: 36px;
+            
+            span {
+                color: #FF5E14;
+            }
+        }
+    }
+
+    button {
+        @extend %setText;
+        color: #FFF;
+        text-align: center;
+        padding: 28px 18px;
+        background: #FF5E14;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+    }
+}

@@ -39,20 +39,27 @@
     article {
         margin: 52px auto 88px;
 
-        .accordion-header {
-            @extend %setBlock;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 1161px;
+        .accordion {
+            border-bottom: 4px solid #001659;
 
-            h4 {
-                @extend %setText;
+            .accordion-header {
+                @extend %setBlock;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 1161px;
+                cursor: pointer;
+        
+                h4 {
+                    @extend %setText;
+                }
             }
-        }
-
-        p {
-            @extend %setText;
-            font-size: 20px;
+        
+            p {
+                margin-top: 20px;
+                @extend %setText;
+                font-size: 20px;
+                width: 1161px;
+            }
         }
     }
 }

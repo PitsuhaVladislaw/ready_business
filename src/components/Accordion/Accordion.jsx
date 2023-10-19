@@ -17,9 +17,9 @@ class Accordion extends Component {
     render() {
         return (
             <div className="accordion">
-                <div className="accordion-header">
+                <div className="accordion-header" onClick={this.toggleAccordion}>
                     <h4 style={{width: '1125px'}}>{this.props.name}</h4>
-                    <h4 onClick={this.toggleAccordion}>{this.props.title}</h4>
+                    <h4>{this.props.title}</h4>
                 </div>
                 {this.state.isOpen && (
                     <div className="accordion-content">{this.props.children}</div>
