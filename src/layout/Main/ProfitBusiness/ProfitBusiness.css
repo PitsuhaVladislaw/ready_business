@@ -1,0 +1,74 @@
+.profitBusi article button, .profitBusi article h6, .profitBusi article p, .profitBusi h1 {
+  color: #008AC6;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.profitBusi article, .profitBusi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.profitBusi {
+  position: relative;
+  flex-direction: column;
+  padding: 53px 0 170px;
+  gap: 54px;
+}
+.profitBusi h1 {
+  z-index: 10;
+}
+.profitBusi h1 span {
+  color: #FF5E14;
+}
+.profitBusi article {
+  flex-direction: column;
+  align-self: flex-end;
+  margin-right: 153px;
+  z-index: 10;
+  gap: 18px;
+}
+.profitBusi article p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: none;
+  text-align: left;
+}
+.profitBusi article h6 {
+  color: #000;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+}
+.profitBusi article button {
+  padding: 28px 23px 30px;
+  background: #FF5E14;
+  line-height: normal;
+  margin-top: 78px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FFF;
+  border: none;
+}
+.profitBusi img {
+  -webkit-mask-image: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%);
+          mask-image: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+}/*# sourceMappingURL=ProfitBusiness.css.map */

@@ -1,0 +1,110 @@
+.payback article div, .payback article, .payback {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.payback button, .payback article div p, .payback article div h4, .payback article div h6, .payback article div h1 {
+  color: #000;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.payback {
+  margin-bottom: 95px;
+  flex-direction: column;
+  align-items: center;
+  gap: 77px;
+}
+.payback article {
+  position: relative;
+  justify-content: space-around;
+  background-image: url(../../../assets/img/builder.png);
+  background-size: cover;
+  width: 1440px;
+  height: 730px;
+}
+.payback article div {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 83px 159px 0;
+  z-index: 10;
+  gap: 35px;
+}
+.payback article div h1 {
+  color: #008AC6;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 94.4%;
+  text-transform: uppercase;
+}
+.payback article div h1 span {
+  color: #FF5E14;
+  font-size: 90px;
+}
+.payback article div h6 {
+  line-height: 120%;
+  text-align: left;
+  margin-top: 22px;
+}
+.payback article div h4 {
+  margin-top: 10px;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+.payback article div h4 span {
+  color: #FF5E14;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.payback article div p {
+  color: #FFF;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  z-index: 15;
+}
+.payback article div p span {
+  font-weight: 700;
+}
+.payback article div div {
+  position: absolute;
+  left: 0px;
+  bottom: 170px;
+  display: block;
+  height: 134px;
+  width: 760px;
+  background: #001659;
+}
+.payback article img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  left: 0;
+  top: 0;
+}
+.payback article .money {
+  top: auto;
+  left: auto;
+  bottom: -60px;
+  right: 422px;
+}
+.payback button {
+  color: #FFF;
+  border: none;
+  text-align: center;
+  padding: 28px 18px;
+  background: #FF5E14;
+  box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.5);
+}/*# sourceMappingURL=Payback.css.map */

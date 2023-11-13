@@ -24,6 +24,7 @@
   gap: 84px;
 }
 .seasonwork h1 {
+  z-index: 10;
   color: #008AC6;
   text-align: center;
   font-size: 50px;

@@ -1,0 +1,130 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #000;
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.payback {
+    @extend %setBlock;
+    margin-bottom: 95px;
+    flex-direction: column;
+    align-items: center;
+    gap: 77px;
+
+    article {
+        position: relative;
+        @extend %setBlock;
+        justify-content: space-around;
+        background-image: url(../../../assets/img/builder.png);
+        background-size: cover;
+        width: 1440px;
+        height: 730px;
+
+        div {
+            position: relative;
+            @extend %setBlock;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 83px 159px 0;
+            z-index: 10;
+            gap: 35px;
+
+            h1 {
+                @extend %setText;
+                color: #008AC6;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 94.4%;
+                text-transform: uppercase;
+
+                span {
+                    color: #FF5E14;
+                    font-size: 90px;
+                }
+            }
+
+            h6 {
+                @extend %setText;
+                line-height: 120%;
+                text-align: left;
+                margin-top: 22px
+            }
+
+            h4 {
+                margin-top: 10px;
+                @extend %setText;
+                font-size: 40px;
+                line-height: 120%;
+                letter-spacing: -2px;
+                span {
+                    color: #FF5E14;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+
+            p {
+                @extend %setText;
+                color: #FFF;
+                font-weight: 400;
+                letter-spacing: -0.4px;
+                z-index: 15;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            div {
+                position: absolute;
+                left: 0px;
+                bottom: 170px;
+                display: block;
+                height: 134px;
+                width: 760px;
+                background: #001659;
+            }
+        }
+
+        img {
+            position: absolute;
+            height: auto;
+            width: auto;
+            left: 0;
+            top: 0
+        }
+
+        .money {
+            top: auto;
+            left: auto;
+            bottom: -60px;
+            right: 422px
+        }
+    }
+
+    button {
+        @extend %setText;
+        color: #FFF;
+        border: none;
+        text-align: center;
+        padding: 28px 18px;
+        background: #FF5E14;
+        box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+    }
+}

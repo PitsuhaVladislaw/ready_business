@@ -58,8 +58,14 @@
   gap: 69px;
 }
 .garantee .line-gara main .ipod div {
+  position: relative;
   width: auto;
   height: auto;
+}
+.garantee .line-gara main .ipod div .risunok {
+  position: absolute;
+  left: 50px;
+  top: 25px;
 }
 .garantee .line-gara main .ipod img {
   width: auto;

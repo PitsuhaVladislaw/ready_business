@@ -1,0 +1,112 @@
+.compe article div div, .compe article div, .compe article, .compe div, .compe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.compe button, .compe p, .compe article div p, .compe div h6, .compe div h1 {
+  color: #000;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.compe {
+  flex-direction: column;
+  padding: 74px 163px 88px;
+  gap: 57px;
+}
+.compe div {
+  flex-direction: column;
+  gap: 31px;
+}
+.compe div h1 {
+  color: #008AC6;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+}
+.compe div h1 span {
+  color: #FF5E14;
+}
+.compe div h6 span {
+  color: #001659;
+  font-weight: 700;
+}
+.compe article {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 85px;
+}
+.compe article div {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 206px;
+  gap: 18px;
+}
+.compe article div .compe-icon {
+  width: 70px;
+  height: 70px;
+  color: #008AC6;
+}
+.compe article div div {
+  flex-direction: row;
+  position: relative;
+  height: 70px;
+}
+.compe article div div .left-h {
+  transform: rotate(90deg);
+  z-index: 3;
+  width: 59px;
+  height: 59px;
+}
+.compe article div div img {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  z-index: 2;
+  width: auto;
+  height: auto;
+}
+.compe article div div .right-h {
+  transform: scaleX(-1);
+  z-index: 1;
+  width: 59px;
+  height: 59px;
+}
+.compe article div div .blc-img {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  transform: rotate(-90deg);
+}
+.compe article div p {
+  font-weight: 700;
+}
+.compe article div p span {
+  color: #FF5E14;
+}
+.compe p {
+  color: #001659;
+  letter-spacing: -1.3px;
+}
+.compe button {
+  color: #FFF;
+  text-align: center;
+  padding: 28px 18px;
+  border: none;
+  background: #FF5E14;
+  cursor: pointer;
+  box-shadow: 0px 10px 13px rgba(255, 94, 20, 0.5);
+  width: 659px;
+}/*# sourceMappingURL=CompBlock.css.map */

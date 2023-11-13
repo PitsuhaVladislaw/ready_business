@@ -67,8 +67,15 @@
                 gap: 69px;
     
                 div {
+                    position: relative;
                     width: auto;
                     height: auto;
+
+                    .risunok {
+                        position: absolute;
+                        left: 50px;
+                        top: 25px;
+                    }
                 }
     
                 img {

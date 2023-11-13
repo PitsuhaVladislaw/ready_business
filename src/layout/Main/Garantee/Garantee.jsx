@@ -3,6 +3,7 @@ import './Garantee.css'
 import Ipod from '../../../assets/img/ipod.png'
 import Pencil from '../../../assets/img/pencil.png'
 import Vector from '../../../assets/img/vector.png'
+import Risunok from '../../../assets/img/risunok.png'
 
 function Garantee() {
     return(
@@ -16,7 +17,7 @@ function Garantee() {
                     <article className='ipod'>
                         <div>
                             <img src={Ipod} alt="ipad" />
-                            <img src="" alt="risunok" />
+                            <img src={Risunok} className='risunok' alt="risunok" />
                         </div>
                         <img src={Pencil} alt="pencil" />
                     </article>
