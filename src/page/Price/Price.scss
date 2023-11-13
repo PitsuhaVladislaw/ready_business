@@ -1,0 +1,129 @@
+%setText {
+    color: #FFF;
+    font-family: PT Sans Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.price {
+    @extend %setBlock;
+    flex-direction: column;
+    gap: 53px;
+
+    h1 {
+        @extend %setText;
+        color: #008AC6;
+        text-align: center;
+        font-size: 50px;
+        line-height: 110%;
+        letter-spacing: -1.25px;
+
+        span {
+            color: #FF5E14;
+        }
+    }
+
+    .back-picture {
+        height: auto;
+        width: auto;
+        background-image: url(../../assets/img/background.png);
+        background-size: cover;
+
+        article {
+            position: relative;
+            @extend %setBlock;
+            flex-direction: column;
+            height: 1132px;
+            background-color: #001659CC;
+            gap: 49px;
+
+            img {
+                position: absolute;
+                width: auto;
+                height: auto;
+                left: 50px;
+                top: 10px;
+            }
+
+            .group-adva {
+                @extend %setBlock;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 48px;
+
+                div {
+                    @extend %setBlock;
+                    align-items: flex-start;
+                    gap: 70px
+                }
+
+                .card-adva {
+                    @extend %setBlock;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    width: 274px;
+
+                    .icon-card {
+                        width: 97px;
+                        height: 97px;
+                        color: #FF5E14
+                    }
+
+                    h2 {
+                    @extend %setText;
+
+                        span {
+                            color: #FF5E14;
+                            text-decoration-line: underline;
+                        }
+                    }
+
+                    p {
+                        @extend %setText;
+                        font-weight: 400;
+                        text-transform: none;
+                        text-align: left;
+                    }
+
+                    img {
+                        position: none;
+                        width: auto;
+                        height: auto;
+                        color: #FF5E14;
+                    }
+                }
+            }
+    
+            h4 {
+                @extend %setText;
+                text-align: center;
+                font-size: 50px;
+                line-height: 105.4%;
+            }
+    
+            button {
+                @extend %setBlock;
+                @extend %setText;
+                border: none;
+                padding: 22px 29px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 400;
+                background: #FF5E14;
+                box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+            }
+        }
+    }
+}

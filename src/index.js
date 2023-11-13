@@ -1,18 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import './index.css'
-import Header from "./layout/Header/Header";
-import NavBar from "./layout/NavBar/NavBar";
-import Main from './layout/Main/Main';
-import Footer from './layout/Footer/Footer';
+import App from './App';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NavBar />
-    <Header />
-    <Main />
-    <Footer />
+    <App />
   </React.StrictMode>
 );

@@ -1,0 +1,99 @@
+.seasonwork section article .art-text, .seasonwork section article .art-card div, .seasonwork section article .art-card, .seasonwork section article, .seasonwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.seasonwork section article .art-text button, .seasonwork section article .art-text p, .seasonwork section article .art-card div p, .seasonwork section article h3, .seasonwork h1 {
+  color: #FFF;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.seasonwork {
+  flex-direction: column;
+  gap: 84px;
+}
+.seasonwork h1 {
+  z-index: 10;
+  color: #008AC6;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+}
+.seasonwork h1 span {
+  color: #FF5E14;
+}
+.seasonwork section {
+  background-image: url(../../assets/img/6mksbzfoza9x991m\ 1.png);
+  background-size: cover;
+}
+.seasonwork section article {
+  flex-direction: column;
+  gap: 40px;
+  padding: 76px 163px 48px;
+  background-color: rgba(0, 22, 89, 0.8);
+}
+.seasonwork section article h3 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+.seasonwork section article h3 span {
+  color: #FF5E14;
+}
+.seasonwork section article .art-card {
+  gap: 25px;
+  width: 318px;
+}
+.seasonwork section article .art-card div {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.seasonwork section article .art-card div .art-icon {
+  width: 40px;
+  height: 40px;
+  color: #FFFFFF;
+}
+.seasonwork section article .art-card div p {
+  letter-spacing: -1px;
+  margin: 31px auto;
+}
+.seasonwork section article .art-card div div {
+  width: 318px;
+  height: 5px;
+  background: #FF6F53;
+}
+.seasonwork section article .art-text {
+  flex-direction: column;
+  gap: 25px;
+}
+.seasonwork section article .art-text p {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.seasonwork section article .art-text p span {
+  color: #FF5E14;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seasonwork section article .art-text button {
+  padding: 29px 23px;
+  background: #FF5E14;
+  text-align: center;
+  border: none;
+  line-height: normal;
+  filter: drop-shadow(0px 10px 13px rgba(255, 94, 20, 0.5));
+}/*# sourceMappingURL=SeasonWork.css.map */

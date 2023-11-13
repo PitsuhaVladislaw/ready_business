@@ -1,0 +1,113 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.buildFences {
+    @extend %setBlock;
+    background-image: url(../../assets//img/fences.png);
+    background-size: cover;
+
+    .fences {
+        @extend %setBlock;
+        flex-direction: column;
+        gap: 60px;
+        background: rgba(0, 22, 89, 0.70);
+        padding: 60px 108px 30px;
+
+        header {
+            @extend %setBlock;
+            flex-direction: column;
+            background: none;
+
+            h2 {
+                @extend %setText;
+                text-align: center;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 94.4%;
+                text-transform: uppercase;
+
+                span {
+                    color:#FF5E14;
+                }
+            }
+
+            p {
+                @extend %setText;
+            }
+        }
+
+        article {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 22px;
+
+            div {
+                @extend %setBlock;
+                gap: 46px;
+
+                div {
+                    @extend %setBlock;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    border-bottom: 5px solid #FF6F53;
+                    gap: 24px;
+                    justify-content: flex-start;
+                    height: 164px;
+
+                    .icon-fences {
+                        width: 32px;
+                        height: 32px;
+                        color: #FFFFFF;
+                    }
+
+                    h5 {
+                        @extend %setText;
+                        text-align: left;
+                        letter-spacing: -1.3px;
+                        width: 164px;
+                        margin-bottom: 17px
+                    }
+                }
+            }
+
+            h4 {
+                @extend %setText;
+                font-size: 30px;
+                font-weight: 700;
+
+                span {
+                    color: #FF5E14;
+                }
+            }
+        }
+
+        button {
+            @extend %setBlock;
+            @extend %setText;
+            text-align: center;
+            cursor: pointer;
+            padding: 28px 18px;
+            border: none;
+            background: #FF5E14;
+            box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+        }
+    }
+}

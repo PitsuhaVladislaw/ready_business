@@ -1,0 +1,86 @@
+.buildFences .fences button, .buildFences .fences article div div, .buildFences .fences article div, .buildFences .fences article, .buildFences .fences header, .buildFences .fences, .buildFences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.buildFences .fences button, .buildFences .fences article h4, .buildFences .fences article div div h5, .buildFences .fences header p, .buildFences .fences header h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.buildFences {
+  background-image: url(../../assets//img/fences.png);
+  background-size: cover;
+}
+.buildFences .fences {
+  flex-direction: column;
+  gap: 60px;
+  background: rgba(0, 22, 89, 0.7);
+  padding: 60px 108px 30px;
+}
+.buildFences .fences header {
+  flex-direction: column;
+  background: none;
+}
+.buildFences .fences header h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 94.4%;
+  text-transform: uppercase;
+}
+.buildFences .fences header h2 span {
+  color: #FF5E14;
+}
+.buildFences .fences article {
+  flex-direction: column;
+  gap: 22px;
+}
+.buildFences .fences article div {
+  gap: 46px;
+}
+.buildFences .fences article div div {
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 5px solid #FF6F53;
+  gap: 24px;
+  justify-content: flex-start;
+  height: 164px;
+}
+.buildFences .fences article div div .icon-fences {
+  width: 32px;
+  height: 32px;
+  color: #FFFFFF;
+}
+.buildFences .fences article div div h5 {
+  text-align: left;
+  letter-spacing: -1.3px;
+  width: 164px;
+  margin-bottom: 17px;
+}
+.buildFences .fences article h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.buildFences .fences article h4 span {
+  color: #FF5E14;
+}
+.buildFences .fences button {
+  text-align: center;
+  cursor: pointer;
+  padding: 28px 18px;
+  border: none;
+  background: #FF5E14;
+  box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.5);
+}/*# sourceMappingURL=BuildFences.css.map */
