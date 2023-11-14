@@ -7,8 +7,8 @@
 }
 
 %setText {
-    color: #000;
-    font-family: PT Sans Caption;
+    color: var(--primary-black);
+    font-family: 'PT Sans Caption';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -31,7 +31,7 @@
 
         h1 {
             @extend %setText;
-            color: #008AC6;
+            color: var(--primary-blue);
             text-align: center;
             font-size: 50px;
             font-weight: 700;
@@ -40,7 +40,7 @@
             text-transform: uppercase;
 
             span {
-                color: #FF5E14;
+                color: var(--primary-orange);
             }
         }
 
@@ -48,7 +48,7 @@
             @extend %setText;
 
             span {
-                color: #001659;
+                color: var(--dark-blue);
                 font-weight: 700;
             }
         }
@@ -70,7 +70,7 @@
             .compe-icon {
                 width: 70px;
                 height: 70px;
-                color: #008AC6;
+                color: var(--primary-blue);
             }
 
             div {
@@ -114,9 +114,10 @@
             p {
                 @extend %setText;
                 font-weight: 700;
+                color: var(--primary-black);
 
                 span {
-                    color: #FF5E14;
+                    color: var(--primary-orange);
                 }
             }
         }
@@ -124,19 +125,25 @@
 
     p {
         @extend %setText;
-        color: #001659;
+        color: var(--dark-blue);
         letter-spacing: -1.3px;
     }
 
     button {
         @extend %setText;
-        color: #FFF;
+        color: var(--primary-white);
         text-align: center;
         padding: 28px 18px;
         border: none;
-        background: #FF5E14;
+        background: var(--primary-orange);
         cursor: pointer;
         box-shadow: (0px 10px 13px rgba(255, 94, 20, 0.50));
         width: 659px;
+    }
+
+    button:hover {
+        background: var(--primary-blue);
+        outline: 2px solid var(--primary-orange);
+        color: var(--primary-orange);
     }
 }

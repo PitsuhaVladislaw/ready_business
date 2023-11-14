@@ -7,7 +7,7 @@
 }
 
 .garantee .line-gara main .list-gar div ul li h6, .garantee .line-gara main .list-gar div ul li h5, .garantee header p, .garantee header h1 {
-  color: #FFF;
+  color: var(--primary-white);
   font-family: PT Sans Caption;
   font-size: 20px;
   font-style: normal;
@@ -30,21 +30,21 @@
   margin-top: 25px;
 }
 .garantee header h1 {
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
   line-height: 110%;
 }
 .garantee header p {
-  color: #001659;
+  color: var(--dark-blue);
   text-align: center;
 }
 .garantee .line-gara {
   align-self: stretch;
   height: 238px;
   width: auto;
-  background: #001659;
+  background: var(--dark-blue);
   margin: 141px auto;
 }
 .garantee .line-gara main {
@@ -86,18 +86,18 @@
 }
 .garantee .line-gara main .list-gar div ul li {
   width: 450px;
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .garantee .line-gara main .list-gar div ul li h5 {
-  color: #FFF;
+  color: var(--primary-white);
   text-align: justify;
   margin-bottom: 40px;
 }
 .garantee .line-gara main .list-gar div ul li {
   width: 450px;
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .garantee .line-gara main .list-gar div ul li h6 {
-  color: #000;
+  color: var(--primary-black);
   text-align: justify;
 }/*# sourceMappingURL=Garantee.css.map */

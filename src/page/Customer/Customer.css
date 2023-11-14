@@ -1,5 +1,5 @@
 .customer article .block-blue button, .customer article .block-blue h4, .customer article .block-blue div p, .customer p, .customer h1 {
-  font-family: PT Sans Caption;
+  font-family: "PT Sans Caption";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -8,9 +8,8 @@
   margin: 0;
 }
 
-.customer article .block-blue div, .customer article .block-blue, .customer article, .customer {
+.customer article .block-blue div, .customer article .block-blue, .customer {
   display: flex;
-  justify-content: center;
   align-items: center;
   height: auto;
   width: auto;
@@ -21,7 +20,7 @@
 }
 .customer h1 {
   margin-top: 51px;
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
@@ -30,10 +29,10 @@
   text-transform: uppercase;
 }
 .customer h1 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .customer p {
-  color: #000;
+  color: var(--primary-black);
   margin: 31px 0 0 90px;
   line-height: 127.5%;
   letter-spacing: -1px;
@@ -41,7 +40,6 @@
 .customer article {
   background-image: url(../../assets/img/zabor.png);
   background-size: cover;
-  width: 1200px;
 }
 .customer article .block-blue {
   flex-direction: column;
@@ -57,13 +55,13 @@
 }
 .customer article .block-blue div p {
   text-align: leftl;
-  color: #FFF;
+  color: var(--primary-white);
   line-height: 100%;
   letter-spacing: -1px;
 }
 .customer article .block-blue h4 {
   margin-top: 11px;
-  color: #FFF;
+  color: var(--primary-white);
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -72,14 +70,19 @@
   text-transform: uppercase;
 }
 .customer article .block-blue h4 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .customer article .block-blue button {
   border: none;
-  color: #FFF;
+  color: var(--primary-white);
   cursor: pointer;
   text-align: center;
   line-height: normal;
-  background: #FF5E14;
+  background: var(--primary-orange);
   padding: 28px 59px 30px;
+}
+.customer article .block-blue button:hover {
+  color: var(--primary-orange);
+  outline: 2px solid var(--primary-orange);
+  background: var(--primary-white);
 }/*# sourceMappingURL=Customer.css.map */

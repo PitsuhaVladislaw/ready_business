@@ -1,7 +1,7 @@
 %setText {
-    color: #008AC6;
+    color: var(--primary-blue);
     text-align: center;
-    font-family: PT Sans Caption;
+    font-family: 'PT Sans Caption';
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -32,7 +32,7 @@
         @extend %setText;
         z-index: 10;
         span {
-            color: #FF5E14;
+            color: var(--primary-orange);
         }
     }
 
@@ -46,7 +46,7 @@
 
         p {
             @extend %setText;
-            color: #000;
+            color: var(--primary-black);
             font-size: 20px;
             font-weight: 400;
             line-height: 150%;
@@ -56,7 +56,7 @@
 
         h6 {
             @extend %setText;
-            color: #000;
+            color: var(--primary-black);
             font-size: 20px;
             line-height: 150%;
             text-align: left;
@@ -64,15 +64,21 @@
 
         button {
             padding: 28px 23px 30px;
-            background: #FF5E14;
+            background: var(--primary-orange);
             line-height: normal;
             margin-top: 78px;
             @extend %setText;
             font-weight: 400;
             font-size: 20px;
             cursor: pointer;
-            color: #FFF;
+            color: var(--primary-white);
             border: none;
+        }
+
+        button:hover {
+            background: var(--primary-white);
+            outline: 2px solid var(--primary-orange);
+            color: var(--primary-orange);
         }
     }
 

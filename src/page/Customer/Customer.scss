@@ -1,5 +1,5 @@
 %setText {
-    font-family: PT Sans Caption;
+    font-family: 'PT Sans Caption';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -10,7 +10,6 @@
 
 %setBlock {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: auto;
     width: auto;
@@ -23,7 +22,7 @@
     h1 {
         margin-top: 51px;
         @extend %setText;
-        color: #008AC6;
+        color: var(--primary-blue);
         text-align: center;
         font-size: 50px;
         font-weight: 700;
@@ -32,12 +31,12 @@
         text-transform: uppercase;
 
         span {
-            color: #FF5E14;
+            color: var(--primary-orange);
         }
     }
 
     p {
-        color: #000;
+        color: var(--primary-black);
         margin: 31px 0 0 90px;
         @extend %setText;
         line-height: 127.5%;
@@ -45,10 +44,8 @@
     }
 
     article {
-        @extend %setBlock;
         background-image: url(../../assets/img/zabor.png);
         background-size: cover;
-        width: 1200px;
 
         .block-blue {
             @extend %setBlock;
@@ -67,7 +64,7 @@
                 p {
                     text-align: leftl;
                     @extend %setText;
-                    color: #FFF;
+                    color: var(--primary-white);
                     line-height: 100%;
                     letter-spacing: -1px;
                 }
@@ -76,7 +73,7 @@
             h4 {
                 margin-top: 11px;
                 @extend %setText;
-                color: #FFF;
+                color: var(--primary-white);
                 text-align: center;
                 font-size: 40px;
                 font-weight: 700;
@@ -85,19 +82,25 @@
                 text-transform: uppercase;
 
                 span {
-                    color:#FF5E14;
+                    color:var(--primary-orange);
                 }
             }
 
             button {
                 border: none;
-                color: #FFF;
+                color: var(--primary-white);
                 cursor: pointer;
                 @extend %setText;
                 text-align: center;
                 line-height: normal;
-                background: #FF5E14;
+                background: var(--primary-orange);
                 padding: 28px 59px 30px;
+            }
+
+            button:hover {
+                color: var(--primary-orange);
+                outline: 2px solid var(--primary-orange);
+                background: var(--primary-white);
             }
         }
     }

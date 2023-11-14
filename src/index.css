@@ -1,0 +1,14 @@
+:root {
+    --primary-orange: #FF5E14;
+    --primary-white: #fff;
+    --primary-black: #000;
+    --dark-blue: #001659;
+    --primary-blue: #008AC6;
+    --additional-black: #ffffff00;
+    --primary-orange-two: #F24C00;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url(../src/assets/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf);
+}

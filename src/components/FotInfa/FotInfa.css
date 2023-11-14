@@ -7,9 +7,9 @@ article .after_infa, article .text_infa, article .cont_infa .cont_block div, art
 }
 
 article .after_infa p, article .text_infa p, article .text_infa h2, article .text_infa h1, article .cont_infa .cont_block a p {
-  color: #FFF;
+  color: var(--primary-white);
   text-align: center;
-  font-family: PT Sans Caption;
+  font-family: "PT Sans Caption";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -36,7 +36,7 @@ article .cont_infa .cont_block div {
   height: 30px;
   width: 30px;
   border-radius: 30px;
-  background: #FFF;
+  background: var(--primary-white);
 }
 article .cont_infa .cont_block div img {
   height: auto;
@@ -51,7 +51,7 @@ article .text_infa {
   gap: 25px;
 }
 article .text_infa h1 {
-  color: #008AC6;
+  color: var(--primary-blue);
   text-transform: uppercase;
   letter-spacing: normal;
 }
@@ -65,6 +65,7 @@ article .text_infa p {
   font-weight: 400;
   letter-spacing: 0.72px;
   text-align: justify;
+  cursor: pointer;
 }
 article .after_infa {
   padding-bottom: 25px;

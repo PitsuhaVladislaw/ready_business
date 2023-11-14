@@ -18,7 +18,7 @@ function Price() {
                         <div>
                             <div className="card-adva">
                                 <PiEnvelopeSimpleOpenLight className='icon-card' />
-                                <h2>Подайте заявку <span>ТУТ</span></h2>
+                                <h2>Подайте заявку <a href=""><span>ТУТ</span></a></h2>
                                 <p>Обратите внимание, что заполнить данные нужно максимально корректно, по ним мы будем составлять договор.</p>
                             </div>
                             <div className="card-adva">
@@ -45,7 +45,7 @@ function Price() {
                             </div>
                             <div className="card-adva">
                                 <FiBookOpen className='icon-card' />
-                                <h2>Получите <span>готовый доходный бизнес</span> в течение 72-х часов</h2>
+                                <h2>Получите <a href=""><span>готовый доходный бизнес</span></a> в течение 72-х часов</h2>
                             </div>
                         </div>
                     </div>

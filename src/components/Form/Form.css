@@ -7,8 +7,8 @@ article .submitBl button, article .submitBl, article .infaForm div, article .inf
 }
 
 article .submitBl button, article .infaForm input {
-  color: #FFF;
-  font-family: PT Sans Caption;
+  color: var(--primary-white);
+  font-family: "PT Sans Caption";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -32,13 +32,15 @@ article .infaForm div {
 }
 article .infaForm div input {
   width: 320px;
+  cursor: pointer;
 }
 article .infaForm input {
   padding: 24px;
   width: 660px;
   height: 60px;
-  border: 2px solid #FFF;
-  background: rgba(255, 255, 255, 0);
+  border: 2px solid var(--primary-white);
+  background: var(--additional-black);
+  cursor: pointer;
 }
 article .submitBl {
   gap: 113px;
@@ -48,7 +50,13 @@ article .submitBl button {
   padding: 12px 68px;
   text-align: center;
   font-size: 20px;
-  background: #FF5E14;
+  background: var(--primary-orange);
   border: none;
+  cursor: pointer;
   filter: drop-shadow(0px 10px 13px rgba(255, 94, 20, 0.5));
+}
+article .submitBl button:hover {
+  outline: 2px solid var(--primary-orange);
+  background: var(--primary-white);
+  color: var(--primary-orange);
 }/*# sourceMappingURL=Form.css.map */

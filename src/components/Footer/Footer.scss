@@ -7,8 +7,8 @@
 }
 
 %setText {
-    color: #FFF;
-    font-family: PT Sans Caption;
+    color: var(--primary-white);
+    font-family: 'PT Sans Caption';
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -24,21 +24,21 @@ footer {
 
     h1 {
         @extend %setText;
-        color: #008AC6;
+        color: var(--primary-blue);
         text-align: center;
         font-size: 40px;
         line-height: 104.4%;
         margin: 45px auto;
 
         span {
-            color: #FF5E14;
+            color: var(--primary-orange);
         }
     }
 
     article {
         @extend %setBlock;
         flex-direction: column;
-        background: #001659;
+        background: var(--dark-blue);
         padding: 30px 50px;
 
         h2 {
@@ -63,7 +63,7 @@ footer {
         .copyright {
             @extend %setText;
             font-size: 10px;
-            color: #008AC6;
+            color: var(--primary-blue);
             text-align: center;
             font-weight: 400;
         }

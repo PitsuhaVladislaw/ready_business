@@ -7,7 +7,7 @@
 }
 
 %setText {
-    color: #FFF;
+    color: var(--primary-white);
     font-family: PT Sans Caption;
     font-size: 20px;
     font-style: normal;
@@ -33,7 +33,7 @@
 
         h1 {
             @extend %setText;
-            color: #008AC6;
+            color: var(--primary-blue);
             text-align: center;
             font-size: 50px;
             font-weight: 700;
@@ -42,7 +42,7 @@
 
         p {
             @extend %setText;
-            color: #001659;
+            color: var(--dark-blue);
             text-align: center;
         }
     }
@@ -51,7 +51,7 @@
         align-self: stretch;
         height: 238px;
         width: auto;
-        background: #001659;
+        background: var(--dark-blue);
         margin: 141px auto;
 
         main {
@@ -103,11 +103,11 @@
                     ul {
                         li {
                             width: 450px;
-                            color: #FF5E14;
+                            color: var(--primary-orange);
                 
                             h5 {
                                 @extend %setText;
-                                color: #FFF;
+                                color: var(--primary-white);
                                 text-align: justify;
                                 margin-bottom: 40px;
                             }
@@ -117,10 +117,10 @@
                     ul {
                         li {
                             width: 450px;
-                            color: #FF5E14;
+                            color: var(--primary-orange);
                             h6 {
                                 @extend %setText;
-                                color: #000;
+                                color: var(--primary-black);
                                 text-align: justify;
                             }
                         }

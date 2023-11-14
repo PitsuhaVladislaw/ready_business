@@ -22,7 +22,7 @@
 
 header {
     @extend %setBlock;
-    background-image: url(../../assets/img/vinyl-fence-house\ 1.png);
+    background-image: url(../../assets/img/fon-1.png);
     background-size: cover;
 
     .mainText {
@@ -38,7 +38,7 @@ header {
         h4 {
             @extend %setText;
         }
-    
+
         h3 {
             @extend %setText;
             width: 760px;
@@ -57,4 +57,3 @@ header {
         letter-spacing: -0.15px;
     }
 }
-

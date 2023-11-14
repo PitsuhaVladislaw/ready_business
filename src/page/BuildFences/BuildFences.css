@@ -7,9 +7,9 @@
 }
 
 .buildFences .fences button, .buildFences .fences article h4, .buildFences .fences article div div h5, .buildFences .fences header p, .buildFences .fences header h2 {
-  color: #FFF;
+  color: var(--primary-white);
   text-align: center;
-  font-family: PT Sans Caption;
+  font-family: "PT Sans Caption";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +41,7 @@
   text-transform: uppercase;
 }
 .buildFences .fences header h2 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .buildFences .fences article {
   flex-direction: column;
@@ -53,7 +53,7 @@
 .buildFences .fences article div div {
   flex-direction: column;
   align-items: flex-start;
-  border-bottom: 5px solid #FF6F53;
+  border-bottom: 5px solid var(--primary-orange);
   gap: 24px;
   justify-content: flex-start;
   height: 164px;
@@ -61,7 +61,7 @@
 .buildFences .fences article div div .icon-fences {
   width: 32px;
   height: 32px;
-  color: #FFFFFF;
+  color: var(--primary-white);
 }
 .buildFences .fences article div div h5 {
   text-align: left;
@@ -74,13 +74,18 @@
   font-weight: 700;
 }
 .buildFences .fences article h4 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .buildFences .fences button {
   text-align: center;
   cursor: pointer;
   padding: 28px 18px;
   border: none;
-  background: #FF5E14;
+  background: var(--primary-orange);
   box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.5);
+}
+.buildFences .fences button:hover {
+  outline: 2px solid var(--primary-orange);
+  background: var(--primary-white);
+  color: var(--primary-orange);
 }/*# sourceMappingURL=BuildFences.css.map */

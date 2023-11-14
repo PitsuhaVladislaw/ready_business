@@ -7,9 +7,9 @@
 }
 
 %setText {
-    color: #FFF;
+    color: var(--primary-white);
     text-align: center;
-    font-family: PT Sans Caption;
+    font-family: 'PT Sans Caption';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -45,7 +45,7 @@
                 text-transform: uppercase;
 
                 span {
-                    color:#FF5E14;
+                    color:var(--primary-orange);
                 }
             }
 
@@ -67,7 +67,7 @@
                     @extend %setBlock;
                     flex-direction: column;
                     align-items: flex-start;
-                    border-bottom: 5px solid #FF6F53;
+                    border-bottom: 5px solid var(--primary-orange);
                     gap: 24px;
                     justify-content: flex-start;
                     height: 164px;
@@ -75,7 +75,7 @@
                     .icon-fences {
                         width: 32px;
                         height: 32px;
-                        color: #FFFFFF;
+                        color: var(--primary-white);
                     }
 
                     h5 {
@@ -94,7 +94,7 @@
                 font-weight: 700;
 
                 span {
-                    color: #FF5E14;
+                    color: var(--primary-orange);
                 }
             }
         }
@@ -106,8 +106,14 @@
             cursor: pointer;
             padding: 28px 18px;
             border: none;
-            background: #FF5E14;
+            background: var(--primary-orange);
             box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+        }
+
+        button:hover {
+            outline: 2px solid var(--primary-orange);
+            background: var(--primary-white);
+            color: var(--primary-orange);
         }
     }
 }

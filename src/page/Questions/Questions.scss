@@ -7,8 +7,8 @@
 }
 
 %setText {
-    color: #001659;
-    font-family: PT Sans Caption;
+    color: var(--dark-blue);
+    font-family: 'PT Sans Caption';
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -25,14 +25,14 @@
 
     h1 {
         @extend %setText;
-        color: #008AC6;
+        color: var(--primary-blue);
         text-align: center;
         font-size: 50px;
         line-height: 110%;
         text-transform: uppercase;
 
         span {
-            color: #FF5E14;
+            color: var(--primary-orange);
         }
     }
 
@@ -40,7 +40,7 @@
         margin: 52px auto 88px;
 
         .accordion {
-            border-bottom: 4px solid #001659;
+            border-bottom: 4px solid var(--dark-blue);
 
             .accordion-header {
                 @extend %setBlock;

@@ -7,8 +7,8 @@
 }
 
 %setText {
-    color: #FFF;
-    font-family: PT Sans Caption;
+    color: var(--primary-white);
+    font-family: 'PT Sans Caption';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -27,7 +27,7 @@
     h1 {
         z-index: 10;
         @extend %setText;
-        color: #008AC6;
+        color: var(--primary-blue);
         text-align: center;
         font-size: 50px;
         font-weight: 700;
@@ -35,7 +35,7 @@
         text-transform: uppercase;
 
         span {
-            color: #FF5E14; 
+            color: var(--primary-orange); 
         }
     }
 
@@ -57,7 +57,7 @@
                 letter-spacing: -2px;
     
                 span {
-                    color: #FF5E14;
+                    color: var(--primary-orange);
                 }
             }
 
@@ -75,7 +75,7 @@
                     .art-icon {
                         width: 40px;
                         height: 40px;
-                        color: #FFFFFF;
+                        color: var(--primary-white);
                     }
 
                     p {
@@ -87,7 +87,7 @@
                     div {
                         width: 318px;
                         height: 5px;
-                        background: #FF6F53;
+                        background: var(--primary-orange);
                     }
                 }
             }
@@ -103,7 +103,7 @@
                     letter-spacing: -1px;
     
                     span {
-                        color: #FF5E14;
+                        color: var(--primary-orange);
                         text-align: center;
                         text-transform: uppercase;
                     }
@@ -111,12 +111,19 @@
     
                 button {
                     padding: 29px 23px;
-                    background: #FF5E14;
+                    background: var(--primary-orange);
                     @extend %setText;
                     text-align: center;
                     border: none;
                     line-height: normal;
+                    cursor: pointer;
                     filter: drop-shadow(0px 10px 13px rgba(255, 94, 20, 0.50));
+                }
+
+                button:hover {
+                    background: var(--primary-white);
+                    color: var(--primary-orange);
+                    outline: 2px solid var(--primary-orange);
                 }
             }
         }

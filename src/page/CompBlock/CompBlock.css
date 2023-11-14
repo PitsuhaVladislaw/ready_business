@@ -7,8 +7,8 @@
 }
 
 .compe button, .compe p, .compe article div p, .compe div h6, .compe div h1 {
-  color: #000;
-  font-family: PT Sans Caption;
+  color: var(--primary-black);
+  font-family: "PT Sans Caption";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
   gap: 31px;
 }
 .compe div h1 {
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
@@ -37,10 +37,10 @@
   text-transform: uppercase;
 }
 .compe div h1 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .compe div h6 span {
-  color: #001659;
+  color: var(--dark-blue);
   font-weight: 700;
 }
 .compe article {
@@ -57,7 +57,7 @@
 .compe article div .compe-icon {
   width: 70px;
   height: 70px;
-  color: #008AC6;
+  color: var(--primary-blue);
 }
 .compe article div div {
   flex-direction: row;
@@ -92,21 +92,27 @@
 }
 .compe article div p {
   font-weight: 700;
+  color: var(--primary-black);
 }
 .compe article div p span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .compe p {
-  color: #001659;
+  color: var(--dark-blue);
   letter-spacing: -1.3px;
 }
 .compe button {
-  color: #FFF;
+  color: var(--primary-white);
   text-align: center;
   padding: 28px 18px;
   border: none;
-  background: #FF5E14;
+  background: var(--primary-orange);
   cursor: pointer;
   box-shadow: 0px 10px 13px rgba(255, 94, 20, 0.5);
   width: 659px;
+}
+.compe button:hover {
+  background: var(--primary-blue);
+  outline: 2px solid var(--primary-orange);
+  color: var(--primary-orange);
 }/*# sourceMappingURL=CompBlock.css.map */

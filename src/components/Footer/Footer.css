@@ -7,8 +7,8 @@ footer article section .form-reg, footer article section, footer article, footer
 }
 
 footer article .copyright, footer article h2, footer h1 {
-  color: #FFF;
-  font-family: PT Sans Caption;
+  color: var(--primary-white);
+  font-family: "PT Sans Caption";
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -22,18 +22,18 @@ footer {
   flex-direction: column;
 }
 footer h1 {
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-size: 40px;
   line-height: 104.4%;
   margin: 45px auto;
 }
 footer h1 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 footer article {
   flex-direction: column;
-  background: #001659;
+  background: var(--dark-blue);
   padding: 30px 50px;
 }
 footer article h2 {
@@ -51,7 +51,7 @@ footer article section .form-reg {
 }
 footer article .copyright {
   font-size: 10px;
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-weight: 400;
 }/*# sourceMappingURL=Footer.css.map */

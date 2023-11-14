@@ -7,8 +7,8 @@
 }
 
 .questions article .accordion p, .questions article .accordion .accordion-header h4, .questions h1 {
-  color: #001659;
-  font-family: PT Sans Caption;
+  color: var(--dark-blue);
+  font-family: "PT Sans Caption";
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -23,20 +23,20 @@
   flex-direction: column;
 }
 .questions h1 {
-  color: #008AC6;
+  color: var(--primary-blue);
   text-align: center;
   font-size: 50px;
   line-height: 110%;
   text-transform: uppercase;
 }
 .questions h1 span {
-  color: #FF5E14;
+  color: var(--primary-orange);
 }
 .questions article {
   margin: 52px auto 88px;
 }
 .questions article .accordion {
-  border-bottom: 4px solid #001659;
+  border-bottom: 4px solid var(--dark-blue);
 }
 .questions article .accordion .accordion-header {
   flex-direction: row;

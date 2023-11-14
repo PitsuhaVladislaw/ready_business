@@ -7,8 +7,8 @@
 }
 
 %setText {
-    color: #000;
-    font-family: PT Sans Caption;
+    color: var(--primary-black);
+    font-family: 'PT Sans Caption';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
 
     h1 {
         @extend %setText;
-        color: #008AC6;
+        color: var(--primary-blue);
         text-align: center;
         font-size: 50px;
         font-weight: 900;
@@ -55,7 +55,7 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 gap: 31px;
-                border-bottom: 2px solid#FF6F53;
+                border-bottom: 2px solid var(--primary-orange);
                 height: 331px;
                 width: 206px;
         
@@ -78,19 +78,25 @@
             font-size: 36px;
             
             span {
-                color: #FF5E14;
+                color: var(--primary-orange);
             }
         }
     }
 
     button {
         @extend %setText;
-        color: #FFF;
+        color: var(--primary-white);
         text-align: center;
         padding: 28px 18px;
-        background: #FF5E14;
+        background: var(--primary-orange);
         cursor: pointer;
         border: none;
         box-shadow: 0px 10px 13px 0px rgba(255, 94, 20, 0.50);
+    }
+
+    button:hover {
+        background: var(--primary-white);
+        outline: 2px solid var(--primary-orange);
+        color: var(--primary-orange);
     }
 }

@@ -12,7 +12,6 @@ function Form() {
                 <input type="text" name="message" id="message" placeholder='Введите Ваше сообщение' />
             </form>
             <div className='submitBl'>
-                
                 <button>Отправить</button>
             </div>
         </article>
